@@ -1,0 +1,235 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section {
+    background-color: #022c4b;
+}
+
+.hero {
+    background-color:#00022a ;
+    height: 100vh;
+    color: azure;
+    font-size: 15px;
+}
+
+.about-me-button {
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(5, 175,5);
+    padding-top: 5px;
+}
+
+.about-me-button:hover {
+    background-color: rgb(3, 99, 3) ;
+    color: white;
+}
+
+.about-me-button:active {
+    background-color: darkgrey;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+li {
+    width: 100px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 300px;
+    color: white;
+}
+
+.p-bold {
+    font-weight: 400;
+}
+
+.line {
+    display: flex;
+    margin: 20px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 100px;
+}
+
+.hero-txt {
+    margin-left: 40px;
+}
+
+.socials {
+    margin-right: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.selfpic {
+    width: 300px;
+    border-radius: 225px;
+}
+
+.selfpic-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 330px;
+    height: 450px;
+    margin-bottom: 45px;
+    box-shadow: 10px 10px 60px #6f7acb;
+    color: white;
+}
+
+.project-card:hover {
+    background-color: #00022a;
+    width: 360px;
+    height: 460px;
+}
+
+.project-container {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.project-img {
+    width: 320px;
+    height: 215px;
+    margin-top: 5px;
+}
+
+.project-text {
+    font-size: 15px;
+}
+
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+}
+
+.email-logo {
+    text-align: right;
+    margin: 40px;
+}
+
+.hamburger {
+   display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        margin: 20px;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        align-self: flex-end;
+    }
+    ul {
+        display: none;
+        background-color: #0d5589;
+    }
+
+    ul.show {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: #0d5589;
+    }
+    .logo {
+        display: none;
+    }
+    #nav-list{
+        font-size: 25px;
+    }
+    #nav-list>li{
+        width:fit-content;
+        padding: 16px 0px;
+    }
+}

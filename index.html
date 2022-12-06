@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="source/styles.css" /> 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;500;700&display=swap" rel="stylesheet">  
+     <script src="https://kit.fontawesome.com/e303d9a6dc.js" crossorigin="anonymous"></script>
+     <title>Welcome to my Portfolio</title>
+     <meta charset="utf-8">
+    </head>
+<body>
+
+    <!-------------------------------My HERO section w/ my name job title and links to my GitHub and Linkedin profiles------------------------>
+
+    <section class="hero">
+     <nav>
+            <img class="logo" src="source/images/logo.png"/>
+            <ul id="nav-list">
+                <li><A href="#about-me">About me</A></li>
+                <li><A href="#projects">Projects</A></li>
+                <li><A href="#contact-me">Contact me</A></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+     </nav>
+        <div class="hero-area">
+            <div class="hero-txt">
+                <h1>Ant Chantrell</h1>
+                <p>Aspiring Web Developer</p> 
+                <div class="about-me-button"><a href="#about-me">About Me</a></div>
+            </div>
+        <div class="socials">
+            <div>
+                <a href="https://github.com/ant-chantrell" class="social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="60" height="60" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+                </a>
+            </div>
+            <div>
+                <a href="https://linkedin.com/in/anthony-chantrell" class="social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="60" height="60" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--------------------Information about myself in a neat little section---------------->
+
+    <section class="sub-section" id="about-me">
+        <div class="Information">
+            <h2>About Me</h2>
+            <p class="about">Hello! My name is Ant. I am a British Army Veteran and recently, an aspiring self-taught WEB Developer. And YES, through HTML, CSS and JS, I even made this website to showcase my work. So, come on in and take a look at what i've been learning!</p>
+            <br/>
+            <hr class="line"/>
+            <br/>
+            <p class="p-bold">"A little more info" I hear you say? Excellent!</p>
+            <p class="about">I'm 27, and I was a serving soldier in The British Army for 9 years. During my time in the Army (and even my early life) I really enjoyed tinkering with computers and seeing how they tic. I wanted to better understand them. I started building Gaming PC's and getting to know the hardware side of these awesome bits of technology!<br/>
+                 However, It didn't feed my curiosity on how computers actually work. So, as i said before, I'm now looking into Website Development. I just want to learn.</p>
+        </div>
+        <div class="selfpic-container">
+            <img class="selfpic" src="source/images/me.jpg"/>
+        </div>
+    </section>
+
+    <!-------------------My projects section. Each project card needs updating and sorting to add anything I work on----------------->
+
+    <section class="sub-section-alt" id="projects">
+        <h2>Recent Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-img" src="source/images/bg.jpg" alt="Project One"/>
+                <h3><u>A Netflix clone Website</u></h3>
+                <p class="project-text">In this project I have tried to recreate a Netflix looking website exact to the original design as possible.</p>
+            </div>
+            <div class="project-card">
+                <img alt="Project Two"/>
+            </div>
+            <div class="project-card">
+                <img alt="Project Three"/>
+            </div>
+            <div class="project-card">
+                <img alt="Project Four"/>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------Footer and Contact information-------------------------------------------->
+
+    <footer id="contact-me">
+        <div class="email-logo">
+            <h2>Contact me</h2>
+            <p><svg xmlns="http://www.w3.org/2000/svg" fill="white" width="30" height="25" viewBox="0 -3 24 24"><path d="M22 5v14h-20v-14h20zm2-2h-24v18h24v-18zm-2 16l-6.526-6.618-3.445 3.483-3.418-3.525-6.611 6.66 5.051-8-5.051-6 10.029 7.446 9.971-7.446-4.998 6.01 4.998 7.99z"/></svg>   ant.chantrell@outlook.com</p>
+        </div>
+    </footer>
+
+    <script src="source/app.js"></script>
+</body>
+</html>
