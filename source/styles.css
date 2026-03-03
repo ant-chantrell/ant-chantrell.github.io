@@ -115,9 +115,9 @@ p {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
-    margin-left: 10px;
+    height: 95px;
+    width: 95px;
+    margin-left: 15px;
 }
 
 .social {
@@ -234,5 +234,6 @@ p {
         padding: 16px 0px;
     }
 }
+
 
 
