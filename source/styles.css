@@ -141,7 +141,7 @@ p {
 }
 
 .project-card {
-    width: 332px;
+    width: 335px;
     height: 450px;
     margin-bottom: 45px;
     box-shadow: 10px 10px 60px #6f7acb;
@@ -174,7 +174,7 @@ p {
 }
 
 .project-text {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .sub-section-alt {
@@ -234,4 +234,5 @@ p {
         padding: 16px 0px;
     }
 }
+
 
