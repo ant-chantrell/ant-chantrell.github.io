@@ -141,7 +141,7 @@ p {
 }
 
 .project-card {
-    width: 330px;
+    width: 332px;
     height: 450px;
     margin-bottom: 45px;
     box-shadow: 10px 10px 60px #6f7acb;
@@ -234,3 +234,4 @@ p {
         padding: 16px 0px;
     }
 }
+
