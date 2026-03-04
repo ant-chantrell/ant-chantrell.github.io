@@ -146,7 +146,7 @@ p {
     margin-bottom: 45px;
     box-shadow: 10px 10px 60px #6f7acb;
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
 
 .project-card:hover {
@@ -235,6 +235,7 @@ p {
         padding: 16px 0px;
     }
 }
+
 
 
 
